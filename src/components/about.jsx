@@ -11,10 +11,21 @@ export default class About extends Component {
                 <div className="row row-bottom-padded-sm animate-box" data-animate-effect="fadeInLeft">
                 <div className="col-md-12">
                     <div className="about-desc">
-                    <span className="heading-meta">About Us</span>
+                    <span className="heading-meta">About Me</span>
                     <h2 className="colorlib-heading">Who Am I?</h2>
-                    <p></p>
-                    <p></p>
+                    <p>I am a Software Engineer. I have completed my undergraduation in "Bsc(Hons) Computer Science and Software Engineering."</p>
+                    <p>I have already work as a Web page designer and Web App Developer. I have a Knowledge of HTML, CSS And JavaScript. I have also learn Ruby on Rails. I have some knowledge os React and view. </p>
+                    <p>
+                      <div className="col-md-4 text-center animate-box">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Ruby_logo.svg/1024px-Ruby_logo.svg.png" height="42" width="42"></img>
+                        </div>
+                        <div className="col-md-4 text-center animate-box">
+                          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a7/React-icon.svg/640px-React-icon.svg.png" height="42" width="50"></img>
+                          </div>
+                          <div className="col-md-4 text-center animate-box">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/1200px-Postgresql_elephant.svg.png" height="42" width="50"></img>
+                            </div>
+                      </p>
                     </div>
                 </div>
                 </div>

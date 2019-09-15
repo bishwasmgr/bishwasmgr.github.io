@@ -7,7 +7,7 @@ export default class Introduction extends Component {
         <section id="colorlib-hero" className="js-fullheight" data-section="home">
           <div className="flexslider js-fullheight">
             <ul className="slides">
-              <li style={{backgroundImage: 'url(images/img_me.jpg)'}}>
+              <li style={{backgroundImage: 'url(images/img.jpg)', backgroundPosition: 'center'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -15,14 +15,14 @@ export default class Introduction extends Component {
                       <div className="slider-text-inner js-fullheight">
                         <div className="desc">
                           <h1>Hi! <br />I'm Bishwas</h1>
-                          <p><a className="btn btn-primary btn-learn" href="www.linkedin.com/in/bishwastmgr" target="_blank" rel="noopener noreferrer">Visit My linkedin<i className="icon-download4" /></a></p>
+                          <p><a className="btn btn-primary btn-learn" href="https://np.linkedin.com/in/bishwastmgr?trk=profile-badge" target="_blank" rel="noopener noreferrer">Visit My linkedin<i className="icon-download4" /></a></p>
                         </div>
                       </div>
                     </div>
                   </div>
                 </div>
               </li>
-              <li style={{backgroundImage: 'url(images/img_me.jpg)'}}>
+           <li style={{backgroundImage: 'url(images/img.jpg)', backgroundPosition: 'center'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -37,7 +37,7 @@ export default class Introduction extends Component {
                   </div>
                 </div>
               </li>
-              <li style={{backgroundImage: 'url(images/img_me.jpg)'}}>
+              <li style={{backgroundImage: 'url(images/img.jpg)',backgroundPosition: 'center'}}>
                 <div className="overlay" />
                 <div className="container-fluid">
                   <div className="row">
@@ -54,6 +54,7 @@ export default class Introduction extends Component {
               </li>
             </ul>
           </div>
+
         </section>
       </div>
     )
